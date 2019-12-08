@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+		
+	<head>
+		<!-- Hoi! Welkom in de source code van mijn website. -->
+		<!-- includes -->
+		<link rel="shortcut icon" href="fav.png" />
+		<link rel="stylesheet" href="style/css/main.css" media="screen" />
+		<!-- imports -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto%7CUbuntu&display=swap" rel="stylesheet"> 
+		<!-- page information -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Rolvink-IT | Contact </title>
+		
+		<script>
+			function toggleDisplay(id)
+			{
+				element = document.getElementById(id);
+				(element.style.display == 'block') ? element.style.display = 'none' : element.style.display = 'block';
+			}
+		</script>
+
+	</head>
+	<body>
+		
+			<header>
+				<a href="index.html"><img src="images/logo.png" alt="rolvink-it" /></a>
+				<nav id="nav-mobile">
+						<div style="clear:both"></div>
+					<button id="menu-button" onclick="toggleDisplay('nav-web');">
+							☰ Menu
+					</button><br/>
+					<div style="clear:both"></div>
+				</nav>			
+				<nav id="nav-web">
+					<ul>
+						<li><a href="index.html">Home</a>
+						<li><a href="portfolio.html">Portfolio/CV</a>
+						<li><a href="diensten.html">Diensten</a>
+						<li style=" color:#1d52ff">Contact
+					</ul>
+					<div style="clear:both"></div>
+				</nav>
+
+			</header>
+			<div style="clear:both"></div>
+
+			<div id="feature-image" class="midpage" style="background-image:url(images/drops.jpg)"></div>
+
+
+			<article style="min-height:50vh;">
+					<h1>
+						Contact
+					</h1>
+					<p>
+						Contact met mij opnemen kan via
+					</p>
+					<ul>
+						<li> <a href="https://www.linkedin.com/in/dorus-rolvink-7b918113/">LinkedIn</a> 
+						<li> <a href="mailto:info@dwrolvink.com">info@dwrolvink.com</a> 
+					</ul>
+			</article>
+
+		
+		
+		
+		<footer>
+				&#169; Dorus Rolvink, 2019, Den Haag  &mdash; info@dwrolvink.com  
+		</footer>
+	</body>
+</html>

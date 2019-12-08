@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="nl">
+		
+	<head>
+		<!-- Hoi! Welkom in de source code van mijn website. -->
+		<!-- includes -->
+		<link rel="shortcut icon" href="fav.png" />
+		<link rel="stylesheet" href="style/css/main.css" media="screen" />
+		<!-- imports -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto%7CUbuntu%7CRoboto+Condensed&display=swap" rel="stylesheet"> 
+		<!-- page information -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Rolvink-IT | Diensten</title>
+		
+		<script>
+			function toggleDisplay(id){
+				element = document.getElementById(id);	(element.style.display == 'block') ? element.style.display = 'none' : element.style.display = 'block';
+			}
+		</script>
+
+	</head>
+	<body>
+		
+			<header>
+				<a href="index.html"><img src="images/logo.png" alt="rolvink-it" /></a>
+				<nav id="nav-mobile">
+						<div style="clear:both"></div>
+					<button id="menu-button" onclick="toggleDisplay('nav-web');">
+							☰ Menu
+					</button><br/>
+					<div style="clear:both"></div>
+				</nav>			
+				<nav id="nav-web">
+					<ul>
+						<li><a href="index.html">Home</a>
+						<li><a href="portfolio.html">Portfolio/CV</a>
+						<li style=" color:#1d52ff">Diensten
+						<li><a href="contact.html">Contact</a>
+					</ul>
+					<div style="clear:both"></div>
+				</nav>
+
+			</header>
+			<div style="clear:both"></div>
+
+			<div id="feature-image" class="midpage" style="background-image:url(images/drops.jpg)"></div>
+
+			<nav id="nav-inpage">
+				<h1>Op deze pagina</h1>
+				<h2> Introductie </h2>
+				<ul>
+					<li><a href="#post1"> Aanpak &amp; Capaciteit</a>
+				</ul>
+				<h2>Diensten</h2>
+				<ul>
+					<li><a href="#post2"> Automatisering</a>
+					<li><a href="#post3"> Windows Server Beheer</a>
+				</ul>
+			</nav>
+
+			<article>
+				<a name="post1"></a> 
+				<h1> Aanpak </h1>
+				<p class="intro"> In deze sectie leg ik uit wat je van mij kunt verwachten: in capaciteit en in werkwijze. <br/>
+					(Aanpassingen hierop is in goed overleg altijd mogelijk.)
+				</p>
+				<h2> Capaciteit </h2>
+				<p>
+					Ik werk momenteel voor 36 uur in vaste dienst, en heb daarmee zo'n 8 tot 16 uur in de week over voor freelance werk. Hierdoor heb ik een voorkeur voor projectmatig werk 
+					wat op de achtergrond kan lopen en niet per se direct af hoeft. Voor werk met een harde deadline is het ook mogelijk om afspraken te maken, afhankelijk van de werkdruk.
+				</p>
+				<h2> Duidelijke afspraken, duidelijk resultaat </h2>
+				<p>
+					Als het werk niet projectmatig van aard is, is het alsnog nuttig om per periode een bepaald (deel)resultaat af te spreken, daarbij kan dan dezelfde aanpak gebruikt worden als voor 
+					groter projectmatig werk. Voor puur beheertechnisch werk kan dit achterwege gelaten worden, of bepaalde targets afgesproken worden. Zo is het voor beide partijen vooraf duidelijk 
+					waaraan voldaan moet worden. 
+				<p>
+				<h2> Projectmatige aanpak </h2>
+				<table class="tablelist">
+						<tr><td> Kick-off </td> <td> Wensen en eisen van de klant inzichtelijk krijgen. </td> </tr>
+						<tr><td> Scope bepalen </td> <td> Kaders bepalen van het project. </td> </tr>
+						<tr><td> Statement of work </td> <td> Vaststellen wat gaat er worden uitgevoerd. </td> </tr>
+						<tr><td> Plan van aanpak <br/> (met planning) </td> <td> Hoe gaan we het doen en een indicatie van hoe lang het gaat duren.</td> </tr>
+						<tr><td> Rapporteren </td> <td> Voortgang wordt gedaan van project status reports met
+								accordering van de klant (frequentie in samenspraak met de klant). </td> </tr>
+				</table>
+
+				<p>
+						Door het toepassen van deze aanpak is het duidelijk wat er wordt
+						opgeleverd en  bent u altijd op de hoogte van de voortgang.
+				</p>
+
+				</article>
+			<article>
+					<a name="post2"></a> 
+					<h1>
+						Automatisering beheeromgeving
+					</h1>
+					<ul>
+						<li> Ontwikkeling Powershell Scripts en/of Modules
+						<li> Aanpassen en ontwikkelen Python- en Javascript gebaseerde oplossingen
+						<li> Koppelen Softwarepakketten via API's, job-servers, en andere middelen
+						<li> Dataverzameling, analyse, en rapportage
+						<li> Inrichting, support, en scripten in Ansible / Ansible Tower / AWX
+					</ul>
+			</article>
+			<article>
+					<a name="post2"></a> 
+					<h1>
+						Windows Server Beheer
+					</h1>
+					<ul>
+						<li> Migreren Windows omgevingen
+						<li> Automatiseren Windows Server Uitrol
+						<li> Overig Windows DevOps werk
+					</ul>
+			</article>
+		
+		<footer>
+				&#169; Dorus Rolvink 2019 • info@dwrolvink.com • Den Haag
+		</footer>
+	</body>
+</html>

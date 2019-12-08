@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="nl">
+		
+	<head>
+		<!-- Hoi! Welkom in de source code van mijn website. -->
+		<!-- includes -->
+		<link rel="shortcut icon" href="fav.png" />
+		<link rel="stylesheet" href="style/css/main.css" media="screen" />
+		<!-- imports -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto%7CUbuntu%7CRoboto+Condensed&display=swap" rel="stylesheet"> 
+		<!-- page information -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Rolvink-IT | Portfolio</title>
+		
+		<script>
+			function toggleDisplay(id)
+			{
+				element = document.getElementById(id);
+				(element.style.display == 'block') ? element.style.display = 'none' : element.style.display = 'block';
+			}
+		</script>
+
+	</head>
+	<body>
+		
+			<header>
+				<a href="index.html"><img src="images/logo.png" alt="rolvink-it" /></a>
+				<nav id="nav-mobile">
+						<div style="clear:both"></div>
+					<button id="menu-button" onclick="toggleDisplay('nav-web');">
+							☰ Menu
+					</button><br/>
+					<div style="clear:both"></div>
+				</nav>			
+				<nav id="nav-web">
+					<ul>
+						<li><a href="index.html">Home</a>
+						<li style=" color:#1d52ff">Portfolio/CV
+						<li><a href="diensten.html">Diensten</a>
+						<li><a href="contact.html">Contact</a>
+					</ul>
+					<div style="clear:both"></div>
+				</nav>
+
+			</header>
+			<div style="clear:both"></div>
+
+			<div id="feature-image" class="midpage" style="background-image:url(images/drops.jpg)"></div>
+
+
+			<article>
+					<h1>
+						CV
+					</h1>
+					<p class="intro">
+						In deze sectie volgt een korte samenvatting van mijn ICT werkzaamheden en trainingen. Zie ook mijn <a href="https://www.linkedin.com/in/dorus-rolvink-7b918113/">LinkedIn</a>
+						 voor meer informatie.
+					</p>
+					<h2> Heden </h2>
+					<p>Op het moment ben ik werkzaam bij Rijkswaterstaat als Technisch Specialist Windows. Hier heb ik één jaar gewerkt als Windows Server/MSSQL beheerder. In deze functie was ik 
+						verantwoordelijk voor het uitrollen van servers, het dienen als de derde-lijns voor incidenten, het oplossen van problems, en het automatiseren van de beheerslast. In deze 
+						periode ben ik ook druk geweest met datamigratie en inventarisatie projecten. 
+					<p>
+						Sindsdien ben ik doorgegroeid naar een nieuwe rol, waarin product ontwikkeling <nem>(schrijven high-level designs, technisch ontwerpen)</nem> en automatisering centraal staan. 
+					<p>
+						Voor de automatisering gebruik ik voornamelijk Ansible (aangevuld door AWX), Powershell, en leid ik een project om dit te ondersteunen middels een Self-Service Portal in C++.
+
+					<h2> Didacticum </h2>
+					<p>
+						Ik ben bij Didacticum begonnen via het hybrid-cloud traineeship programma, en vervolgens bij het bedrijf zelf in dienst gegaan. Ik was daarbij onderdeel van een nieuwe afdeling 
+						binnen het bedrijf,
+					waarin het ontwikkelen van een cloud-based werkplek centraal stond. Ik heb hierbij veel kennis opgedaan over Office365, het gebruik (en limitaties) van OneDrive als fileshare en 
+					"roaming profile", het managen van BYOD devices middels InTune, en het bouwen van Windows Desktop Deployments.
+					<p> 
+						Het was een klein team, en met onverwachte doorloop vond ik mezelf al plots in de positie waar ik als enige technisch verantwoordelijk was voor het project, én de ICT van het bedrijf zelf.
+						Bij de migratie van onze eerste klant viel de manager uit wegens ziekte, en zodoende heb ik ook ervaren hoe het is om projectleider te zijn in een migratie project. 
+						Dit was gelukkig tijdelijk, en met de hulp van consultants uit andere afdelingen binnen het bedrijf hebben we de migratie tot een succesvol einde weten te brengen.
+					
+					<h2> Open-source, hobbies, en bijbanen </h2>
+					<p>
+						Ik ben tijdens de middelbare school begonnen met WebDesign/-Development bij Studio Projectie, vervolgens heb ik mij in mijn vrije tijd Python aangeleerd om daarin spellen en simulaties
+						te schrijven. Mijn hobbies veranderen met de maand, maar programmeren is sindsdien altijd een blijver geweest. 
+					<p> Op het moment ben ik mij aan het verdiepen in Assembly, wil ik middels 
+						een Arduino Pro Micro een eigen toetsenbord gaan bouwen, en ben ik bezig een distributed rss-like network te ontwerpen. Ik heb mij daarnaast kort verdiept in Go en Rust, maar te weinig 
+						project ideeen waar deze talen voor nodig zijn om hierin verder te gaan op het moment. Kortom: genoeg ervaring om snel de juiste taal te leren die ik nodig heb!
+					<p> Ik zet de meeste projecten waar ik mee bezig ben op:
+						<ul>
+							<li> mijn <a href="http://www.dwrolvink.com">persoonlijke homepage</a>
+							<li> mijn <a href="https://github.com/dwrolvink/HelloWorld">persoonlijke github</a>
+						</ul>
+			</article>
+			<article>
+				<h1>
+					Portfolio
+				</h1>
+				<p class="intro">
+					Under construction... 
+				</p>
+				<p>
+					Alvast één klein projectje die hier thuis kan horen: deze website. In ongeveer 6 uur gebouwd en content voor geschreven. 
+				<p>
+					Een mooi voorbeeld van het voordeel van een statische website bouwen, als een dynamische niet nodig is. Immers: snel opgezet, makkelijk in backup/restore, en geen dependencies die 
+					beheerslast vormen!
+				</p>
+			</article>
+
+		
+		
+		
+		<footer>
+				&#169; Dorus Rolvink 2019 • info@dwrolvink.com • Den Haag
+		</footer>
+	</body>
+</html>
